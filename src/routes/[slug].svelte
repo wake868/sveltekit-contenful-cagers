@@ -59,7 +59,6 @@
 <style>
   .back {
     margin: 20px auto;
-    max-width: 1057px;
   }
   .article {
     margin-bottom: 15px;
@@ -67,7 +66,6 @@
     border-radius: 5px;
     padding: 15px;
     margin: 5px auto;
-    max-width: 1024px;
   }
   .article hr {
     height: 1px;
