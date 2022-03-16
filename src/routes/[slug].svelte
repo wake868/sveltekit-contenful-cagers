@@ -83,13 +83,8 @@
     margin-top: 25px;
   }
   .photos img {
-    max-width: 225px;
-  }
-  /* media queries for xl screens */
-  @media (min-width: 1450px) {
-    .photos img {
-      max-width: 275px;
-    }
+    /* max-width: 225px; */
+    max-width: 98%;
   }
   /* media queries for smaller screens */
   @media (max-width: 1190px) {
@@ -110,9 +105,6 @@
   @media (max-width: 495px) {
     .photos {
       grid-template-columns: repeat(1, 1fr);
-    }
-    .photos img {
-      max-width: 275px;
     }
   }
 </style>
