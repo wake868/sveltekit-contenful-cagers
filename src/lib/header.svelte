@@ -1,5 +1,5 @@
 <header class="header-banner">
-  <img src="/static/cagers-logo-sm.png" alt="site logo" />
+  <img src="static/cagers-logo-sm.png" alt="site logo" />
   <h1>CAGERS BASKETBALL</h1>
   <img src="/static/cagers-logo-sm.png" alt="site logo" />
 </header>
