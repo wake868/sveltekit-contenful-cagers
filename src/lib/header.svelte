@@ -1,6 +1,8 @@
 <header class="header-banner">
   <img src="./cagers-logo-sm.png" alt="site logo" />
-  <h1>CAGERS BASKETBALL</h1>
+  <a href="/">
+    <h1>CAGERS BASKETBALL</h1>
+  </a>
   <img src="./cagers-logo-sm.png" alt="site logo" />
 </header>
 
@@ -18,6 +20,9 @@
   }
   .header-banner img {
     width: 50px;
+  }
+  .header-banner a {
+    text-decoration: none;
   }
   .header-banner h1 {
     color: var(--dark);
