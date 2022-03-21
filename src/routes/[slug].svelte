@@ -52,7 +52,7 @@
     {#each article.photos as photo}
       <a href={photo.url} target="_blank">
         <img
-          src="https://media.graphcms.com/resize=fit:clip,width:250/{photo.handle}"
+          src="https://media.graphcms.com/resize=fit:clip,width:250/output=format:webp/{photo.handle}"
           alt="basketball"
         />
       </a>
