@@ -6,7 +6,7 @@
     const env = import.meta.env;
 
     const graphcms = new GraphQLClient(`${env.VITE_GRAPHCMS_URL}`, {
-      headers: {},
+      headers: {}
     });
 
     const query = gql`
@@ -20,6 +20,7 @@
           }
           photos {
             url
+            handle
           }
         }
       }
@@ -28,8 +29,8 @@
     const { article } = await graphcms.request(query);
     return {
       props: {
-        article,
-      },
+        article
+      }
     };
   }
 </script>
@@ -50,7 +51,10 @@
   <div class="photos">
     {#each article.photos as photo}
       <a href={photo.url} target="_blank">
-        <img src={photo.url} alt="basketball" />
+        <img
+          src="https://media.graphcms.com/resize=fit:clip,width:250/{photo.handle}"
+          alt="basketball"
+        />
       </a>
     {/each}
   </div>
